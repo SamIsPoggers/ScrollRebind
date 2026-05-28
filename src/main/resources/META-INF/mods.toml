@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "scrollrebind"
+version = "1.0.0"
+displayName = "ScrollRebind"
+description = '''
+Rebinds your scroll wheel to configurable keybindings.
+Go to Controls → ScrollRebind to assign keys for scroll up and scroll down.
+Note: Once a direction is bound, hotbar scrolling for that direction is disabled.
+'''
+
+[[dependencies.scrollrebind]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[47,)"
+    ordering = "NONE"
+    side = "CLIENT"
+
+[[dependencies.scrollrebind]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20.1,1.21)"
+    ordering = "NONE"
+    side = "CLIENT"

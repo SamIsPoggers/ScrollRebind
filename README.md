@@ -1,4 +1,4 @@
-# ScrollRebind — Forge 1.20.1 Port
+# ScrollRebind - Forge 1.20.1 Mod
 
 Allows you to rebind any keyboard key to a scroll direction 
 
